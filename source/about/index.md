@@ -18,8 +18,9 @@ layout: "about"
 
 ## 联系方式
 
-- Email: your@email.com
-- GitHub: https://github.com/yourusername
+- Email: 2427328505@qq.com
+- GitHub: https://github.com/zhb161
+- 网站: https://notonlycode.xyz
 
 ## 座右铭
 

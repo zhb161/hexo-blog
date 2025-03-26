@@ -19,8 +19,8 @@ avatar:
 
 # 社交链接
 social:
-  Github: https://github.com/ || fab fa-github
-  E-Mail: mailto:your@email.com || fas fa-envelope
+  Github: https://github.com/zhb161 || fab fa-github
+  E-Mail: mailto:2427328505@qq.com || fas fa-envelope
 
 # 文章页面
 post:
@@ -36,21 +36,115 @@ post:
     image: false
     height: 100
 
-# 页面布局
-layout:
-  type: 3
-  side:
-    position: right
-    padding: 20
-    card_style: true
-    profile:
+# 侧边栏配置
+aside:
+  # 是否启用侧边栏
+  enable: true
+  # 是否默认隐藏侧边栏
+  hide: false
+  # 是否在右下角显示隐藏侧边栏的按钮
+  button: true
+  # 移动设备上是否启用侧边栏
+  mobile: true
+  # 侧边栏位置：left / right
+  position: right
+  display:
+    # 归档页面是否显示侧边栏
+    archive: true
+    # 标签页面是否显示侧边栏
+    tag: true
+    # 分类页面是否显示侧边栏
+    category: true
+  card_author:
+    # 是否显示作者信息卡片
+    enable: true
+    # 作者描述
+    description: 热爱技术，热爱生活
+    button:
+      # 是否显示按钮
       enable: true
-      avatar: /img/avatar.png
-      name: Ice
-      description: 热爱技术，热爱生活
-      location: 中国
-      website: https://example.com
-      background: /img/background.jpg
+      # 按钮图标
+      icon: fab fa-github
+      # 按钮文本
+      text: 关注我
+      # 按钮链接
+      link: https://github.com/zhb161
+  card_announcement:
+    # 是否显示公告卡片
+    enable: true
+    # 公告内容
+    content: 欢迎来到我的博客！
+  card_recent_post:
+    # 是否显示最近文章卡片
+    enable: true
+    # 显示文章数量，0 表示显示所有
+    limit: 5
+    # 排序方式：date / updated
+    sort: date
+    sort_order: -1
+  card_newest_comments:
+    # 是否显示最新评论卡片
+    enable: false
+    sort_order: -1
+    # 显示评论数量
+    limit: 6
+    # 单位：分钟，保存数据到 localStorage
+    storage: 10
+    # 是否显示头像
+    avatar: true
+  card_categories:
+    # 是否显示分类卡片
+    enable: true
+    # 显示分类数量，0 表示显示所有
+    limit: 8
+    # 选择：none / true / false
+    expand: none
+    sort_order: -1
+  card_tags:
+    # 是否显示标签卡片
+    enable: true
+    # 显示标签数量，0 表示显示所有
+    limit: 40
+    # 是否启用颜色
+    color: false
+    # 标签排序方式：random/name/length
+    orderby: random
+    # 排序顺序：1 表示升序，-1 表示降序
+    order: 1
+    sort_order: -1
+  card_archives:
+    # 是否显示归档卡片
+    enable: true
+    # 归档类型：monthly / yearly
+    type: monthly
+    # 日期格式，例如：YYYY年MM月
+    format: YYYY年MM月
+    # 排序顺序：1 表示升序，-1 表示降序
+    order: -1
+    # 显示归档数量，0 表示显示所有
+    limit: 8
+    sort_order: -1
+  card_post_series:
+    # 是否显示系列文章卡片
+    enable: true
+    # 标题显示系列名称
+    series_title: false
+    # 排序方式：title 或 date
+    orderBy: 'date'
+    # 排序顺序：1 表示升序，-1 表示降序
+    order: -1
+  card_webinfo:
+    # 是否显示网站信息卡片
+    enable: true
+    # 是否显示文章数量
+    post_count: true
+    # 是否显示最后推送日期
+    last_push_date: true
+    sort_order: -1
+    # 发布日期与当前日期的时间差
+    # 格式：Month/Day/Year Time 或 Year/Month/Day Time
+    # 如果不启用此功能，请留空
+    runtime_date: 2024/03/26 12:00:00
 
 # 主题颜色
 theme_color:
