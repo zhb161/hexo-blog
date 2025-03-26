@@ -1,0 +1,68 @@
+# 主题配置文件
+# https://github.com/jerryc127/hexo-theme-butterfly
+
+# 导航菜单
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-heart
+
+# 网站图标
+favicon: /img/favicon.png
+
+# 头像
+avatar:
+  img: /img/avatar.png
+  effect: true
+
+# 社交链接
+social:
+  Github: https://github.com/ || fab fa-github
+  E-Mail: mailto:your@email.com || fas fa-envelope
+
+# 文章页面
+post:
+  copyright: true
+  reward: true
+  toc: true
+  related_post: true
+  cover:
+    index_enable: true
+    aside_enable: true
+    archives_enable: true
+    position: both
+    image: false
+    height: 100
+
+# 页面布局
+layout:
+  type: 3
+  side:
+    position: right
+    padding: 20
+    card_style: true
+    profile:
+      enable: true
+      avatar: /img/avatar.png
+      name: Ice
+      description: 热爱技术，热爱生活
+      location: 中国
+      website: https://example.com
+      background: /img/background.jpg
+
+# 主题颜色
+theme_color:
+  enable: true
+  primary: "#49B1F5"
+  secondary: "#FF85A2"
+  text_color:
+    light: "#333333"
+    dark: "#FFFFFF"
+  bg_color:
+    light: "#FFFFFF"
+    dark: "#0D1117"
+
+# 代码高亮
+highlight_theme: light 
